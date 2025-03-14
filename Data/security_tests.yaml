@@ -1,0 +1,14 @@
+test_cases:
+  - id: TC004
+    description: Verify login with special characters in password
+    input:
+      username: "test_user"
+      password: "@dm!n$123"
+    expected_output: "Login successful"
+
+  - id: TC005
+    description: Verify login with a long username
+    input:
+      username: "averyverylongusernamethatexceedslimits"
+      password: "password123"
+    expected_output: "Error: Username too long"
