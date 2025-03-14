@@ -26,3 +26,10 @@ test_cases:
       username: "wronguserid"
       password: "wrongpassword"
     expected_output: "Login failed"
+
+  - id: TC007
+    description: Verify login with invalid credentials
+    input:
+      username: "wrong_userid"
+      password: "wrong_password"
+    expected_output: "Login_failed"
