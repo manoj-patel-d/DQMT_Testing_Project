@@ -17,7 +17,7 @@ test_cases:
     description: Verify login with blank username
     input:
       username: ""
-      password: "somepassword"
+      password: "somepassworngggg"
     expected_output: "Login failed"
 
   - id: TC006
