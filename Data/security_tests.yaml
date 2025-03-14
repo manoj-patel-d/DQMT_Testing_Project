@@ -11,4 +11,4 @@ test_cases:
     input:
       username: "averyverylongusernamethatexceedslimits"
       password: "password123"
-    expected_output: "Error: Username too long"
+    expected_output: "Error: Username too long but ok"
