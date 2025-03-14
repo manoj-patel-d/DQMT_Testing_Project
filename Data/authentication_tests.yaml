@@ -3,28 +3,28 @@ test_cases:
     description: Verify login with valid credentials
     input:
       username: "test_user"
-      password: "securepassword"
+      password: "secure_password"
     expected_output: "Login successful"
 
   - id: TC002
     description: Verify login with invalid password
     input:
       username: "test_user"
-      password: "wrongpassword"
+      password: "wrong_password"
     expected_output: "Login failed"
 
   - id: TC003
     description: Verify login with blank username
     input:
       username: ""
-      password: "somepasswordworng"
+      password: "some_password_wrong"
     expected_output: "Login failed"
 
   - id: TC006
     description: Verify login with invalid credentials
     input:
-      username: "wronguserid"
-      password: "wrongpassword"
+      username: "wrong-user-id"
+      password: "wrong-password"
     expected_output: "Login failed"
 
   - id: TC007
