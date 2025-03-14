@@ -3,7 +3,7 @@ test_cases:
     description: Verify login with valid credentials
     input:
       username: "test_user"
-      password: "securepassword"
+      password: "securepasswordwith wrong details"
     expected_output: "Login successful"
 
   - id: TC002
