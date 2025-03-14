@@ -10,7 +10,7 @@ test_cases:
     description: Verify login with invalid password
     input:
       username: "test_user"
-      password: "wrongpassword"
+      password: "wrongpasswordbvcfzzzzzzzzzzzzzzzz"
     expected_output: "Login failed"
 
   - id: TC003
