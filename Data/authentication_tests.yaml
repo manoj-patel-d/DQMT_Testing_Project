@@ -20,8 +20,8 @@ test_cases:
   - id: TC006
     description: Verify login with invalid credentials
     input:
-      username: "my"
-      password: "my"
+      username: "my_______TEST"
+      password: "my_______TEST"
 
     expected_output: "Login failed"
   - id: TC007
